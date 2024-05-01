@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur Code</title>
+</head>
+<body style="background-color: black; color: white;">
+    
+</body>
+<script>
+    const div1 = document.createElement('div')
+    console.log(div1);
+    div1.className = "main"
+    div1.id = "myid"
+    // console.log(div1);
+    div1.id = Math.round(Math.random() * 10 + 1)
+    div1.setAttribute("title", "generated title")
+    div1.style.backgroundColor = "green"
+    div1.style.padding = "12px"
+    div1.innerText = "chai aur code"
+    const addText = document.createTextNode("Chai aur Code")
+    div1.appendChild(addText)                               // NOTE:  second way to add text in js
+    document.body.appendChild(div1)                         // NOTE: addind the element to the webpage till now it was only in the memory 
+    
+</script>
+</html>

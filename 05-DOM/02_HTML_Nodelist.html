@@ -1,0 +1,50 @@
+<!-- IMP: You can check the methods of an object by creating it in console of the browser -->
+
+<!-- NOTE: In js .innerText gives the text that is visible on the webpage while .textContent gives all the text that is inside that tag -->
+<!-- NOTE: In js .innerHTML gives the complete html inside a tag -->
+<!-- NOTE: In js .querySelector we can select something by it's id, class, tag, or anything thorugh which we can select that in css.-->
+<!-- NOTE: In js .querySelector only selects the first matching result -->
+<!-- IMP: Example for .querySelector :- document.querySelector("#title") => for selecting tag with id title -->
+<!-- IMP: Similarly for class:- .bg-black, for tag name:- input[type='password'], for first child of p:- p:first-child -->
+<!-- NOTE: In js .querySelectorAll selects all the tags with the specified query and returns a nodelist object which is like array(but not actual array) and also have a attribute of forEach -->
+<!-- NOTE: In js to change the properties to individual elements of nodelist we have to use indexing even when we have only one element in it -->
+<!-- NOTE: In js to change properties of every element we have to use forEach -->
+<!-- NOTE: In js .getElementByClassName returns a HTMLCollection object which is also like array but don't have any method like forEach -->
+<!-- NOTE: In js to convert the HTMLCollection into an array use have to convert it into an array -->
+<!-- IMP: Array.from(HTMLCollection or NodeList) can be used to convert a HTMLCollection or NodeList into an array-->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nodelist in DOM on Chai aur Code</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        } 
+    </style>
+</head>
+<body>
+    <div class="bg-black">
+        <h1 class="heading" id="title">DOM learning on Chai aur Code <span style="display: none;">test text</span></h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <h2>Lorem, ipsum dolor.</h2>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <input type="password" id="pass">
+
+        <ul>
+            <li class = "list-item">one</li>
+            <li class = "list-item">two</li>
+            <li class = "list-item">three</li>
+            <li class = "list-item">four</li>
+        </ul>
+    </div>
+</body>
+</html>
+
+
