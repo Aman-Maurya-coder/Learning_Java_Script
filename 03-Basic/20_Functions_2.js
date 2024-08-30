@@ -1,6 +1,7 @@
 function calc_cart_price(val1, val2, ...num1){         //NOTE:IMP:(...) is known as rest operator and as well as spread operator depending upon the usecase
     return (val1, val2)                                //NOTE: works as a **args like in python
-}                                                      //NOTE: return statement only return the last object passed to it         
+}                                                      //NOTE: return statement only return the last object passed to it.
+                                                       //NOTE: To return more than one value return it as a array.         
 
 // console.log(calc_cart_price(2,20,400,46,56,2,1));
 

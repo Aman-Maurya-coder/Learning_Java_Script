@@ -34,4 +34,4 @@ js_user.greeting = function(){
 }
 
 js_user.greeting()         // we have to call a function 
-console.log(js_user.greeting)           // will now print anything
+console.log(js_user.greeting)           // will now print address of it.
