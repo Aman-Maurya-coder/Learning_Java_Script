@@ -5,10 +5,12 @@ const balance = new Number(100)
 // console.log(balance);
 
 // console.log(typeof score.toString());
+// console.log(score);
 // console.log(score.toString().length);
-// console.log(balance.toFixed(2));
+// console.log(score);
+console.log(balance.toFixed(2));    //NOTE: Round off to the given argument
 const num = 214.54176
-// console.log(num.toPrecision(2));
+// console.log(num.toPrecision(2)); //NOTE: Rounds the number to the given number of significant digits.
 // console.log(num.toPrecision(6));
 // console.log(typeof num.toPrecision(6));
 
@@ -30,11 +32,12 @@ const num2 = 1000000
 // console.log(Math.min(4,5,6,7,2,1,6));
 // console.log(Math.max(4,5,6,7,2,1,6));
 
-
+//NOTE: math.round rounds a number to its nearest integer.
 // console.log((Math.random()*10) +1);                // +1 for avoiding getting 0
 // console.log(Math.round(Math.random()*10) +1);               
 
 const min = 10
 const max = 20
 
-console.log(Math.floor(Math.random() * (max-min +1) + min))     // to get a value in a given range
+//NOTE: floor is like gif function of maths
+// console.log(Math.floor(Math.random() * (max-min +1) + min))     // to get a value in a given range

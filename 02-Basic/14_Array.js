@@ -32,6 +32,6 @@ const arr5 = arr.slice(1,4)
 // console.log("b ", arr);
 
 console.log(arr);
-const arr6 = arr.splice(1,3)                    // also deletes the arr from origina array
+const arr6 = arr.splice(1,3)                    // also deletes the arr from original array
 console.log(arr6);
 console.log(arr);

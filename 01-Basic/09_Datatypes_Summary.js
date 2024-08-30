@@ -10,8 +10,8 @@
 let id = Symbol(123)
 let another_id = Symbol(123)
 
-// console.log(id === another_id)
-// console.log(typeof id);
+console.log(id === another_id)
+console.log(typeof id);
 
 
 // Refrence Type (Non-Primitive) :-
@@ -19,20 +19,20 @@ let another_id = Symbol(123)
 // 3 types : Arrays, Objects, Functions
 
 const names = ["aman", "dron", "naman"]
-// console.log(typeof names);
+console.log(typeof names);
 
 
 let obj = {
     name: "hitesh",
     age: 24,
 }
-// console.log(typeof obj);
+console.log(typeof obj);
 
 
 const func = function(){
     console.log("hello world");
 }
-// func()
-// console.log(typeof func);
+func()
+console.log(typeof func);
 
 

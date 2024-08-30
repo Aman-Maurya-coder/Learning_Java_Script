@@ -1,6 +1,6 @@
 // Stack memory :-
 // Used in all primitive datatypes.
-// In this the copy of variable is returned if we create a copy, so the orginal value doesn't change even if we change the copy.
+// In this the copy of value of variable is returned if we create a copy, so the orginal value doesn't change even if we change the copy.
 
 
 // Heap memory :-
