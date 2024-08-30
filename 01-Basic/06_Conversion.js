@@ -25,5 +25,5 @@ let boolean_logged_in = Boolean(is_logged_in)
 let some_num = 33
 let num_in_str = String(some_num)
 
-console.log(num_in_str);
-console.log(typeof(num_in_str));
+// console.log(num_in_str);
+// console.log(typeof(num_in_str));
