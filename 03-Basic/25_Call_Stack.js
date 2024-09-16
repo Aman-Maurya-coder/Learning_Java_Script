@@ -1,5 +1,5 @@
-// Java Script Execution Context
-
+// Java Script Execution Context(EC)
+// JS is single threaded.
 // When a JS code is written. These types of EC are formed :-
 // (1) Global EC :- this keyword
 // (2) Functional EC
@@ -7,7 +7,7 @@
 
 // On exection the code goes from the following phases:-
 // (1) Memory Creation Phase :- Memory allocation takes place
-// (2) Execution Phase :- 
+// (2) Execution Phase :- All calculation and processes takes place here.
 
 // e.g. :-
 let val1 = 10
