@@ -27,7 +27,7 @@ if (true) {
 // IMP: ways to define a functions:-
 
 
-// console.log(addone(5))              //NOTE: In js code is not interpreted line by line, we can call a function before its definition
+// console.log(addone(5))              //NOTE: In js, code is not interpreted line by line, we can call a function before its definition
 function addone(num) {
     return num +1
 }
