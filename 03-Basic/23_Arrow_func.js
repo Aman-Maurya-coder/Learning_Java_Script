@@ -27,8 +27,9 @@ const two = () => {                    //NOTE: This is a arrow function.
 
 // two()                               //NOTE: The result will be same in this also.
 
-const three = (num1, num2) => num1 + num2   //NOTE: another way to use arrow function can use () after arrow also . e.g. (num1 + num2)
+const three = (num1, num2) => num1 + num2   //NOTE: another way to use arrow function is that we can use () after arrow also . e.g. (num1 + num2)
 
+const five = (num1, num2) => (num1 + num2)  //NOTE: If we are using curly braces then we have to use return statement. Otherwise for single line execution we can either use brackets or skip them too.
 // console.log(three(4,5))
 
 const four = () => ({username : "aman"})    //NOTE: to return a object in arrow function
