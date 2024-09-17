@@ -1,4 +1,4 @@
-// for each loop
+// for each loop: Applies a function on each element of array.
 
 const coding = ['js', 'ruby', 'java', 'python']
 
@@ -14,7 +14,7 @@ function prnt_me(item) {
 
 // coding.forEach(prnt_me)                     //NOTE: using a pre-defined function in forEach
 
-//IMP: More parameters of forEach
+//IMP: Using parameters of forEach
 
 // coding.forEach( (item, index, arr) => {console.log(item, index, arr);} )
 

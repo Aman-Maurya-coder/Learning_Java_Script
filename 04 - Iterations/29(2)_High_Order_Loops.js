@@ -5,16 +5,15 @@ const obj = {
     rb : "Ruby"
 }
 
-// for (const key in obj) {                    //NOTE: for iterating an object
+// for (const key in obj) {                    //NOTE: forin loop is used for iterating an object. It is not only used for iterating objects only.
 //     console.log(key);
 //     console.log(obj[key]);
 // }
-
 //IMP: It also works on arrays but the value in key will be index of the array
 
 const arr = ["js", "py", "cpp", "java"]
 
-// for (const key in arr) {
+// for (const key in arr) {                //NOTE: forin loop if used on arrays will only retreive the index of elements present in the array.
 //     console.log(key);
 // }
 

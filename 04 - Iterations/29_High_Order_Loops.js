@@ -1,15 +1,16 @@
 // These are array specific loops
 
-// for-of loop
+//NOTE: for-of loop
 
 // const arr = [1,2,3,4,5,6]
-const arr = "aman"                  // NOTE: for strings also
+const arr = "aman"                  // NOTE: Works for strings also
 
 for (const i of arr) {
     // console.log(i);
 }
 
-// Maps
+// Maps :- The Map object holds key-value pairs and remembers the original insertion order of the keys. 
+//         Any value (both objects and primitive values) may be used as either a key or a value.
 
 const map = new Map()
 map.set("IN", "India")
