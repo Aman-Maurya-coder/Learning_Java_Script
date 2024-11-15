@@ -15,7 +15,8 @@
             this.server = "https://localhost:300"
             //Requirement
             document.querySelector('button').addEventListener('click', this.handleClick.bind(this))
-        }   
+        }           //NOTE: Bind is used to give functions all the information about the current execution context and its properties.
+
         handleClick(){
             console.log("button clicked");
             console.log(this.server);
